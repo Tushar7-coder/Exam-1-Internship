@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.banner{
+	height: 50px;
+	width: 100vw;
+	background-color: rgb(7, 0, 0);
+	position: fixed;
+	top: 0;
+	
+}
+.banner p{
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+}
+.banner a{
+	color: yellow;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.separation{
+	height: 45px;
+}
+
+.nav-bar{
+	background-color:#FFAB00A3;
+	height: 45px;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 25px;
+}
+
+.nav-two a{
+	text-decoration: none;
+	color: black;
+	padding-right: 40px;
+}
+.nav-three i{
+	padding: 7px;
+	color: black;
+	padding-right: 20px;
+}
+.nav-three a{
+	text-decoration: none;
+	color: black;
+}
+.nav-one{
+	font-size: 1.75rem;
+	padding-top: 2px;
+	padding-bottom: 5px;
+
+}
+.section-one{
+	position: relative;
+
+}
+.hero-section{
+	height: 800px;
+	background-image: url(./e\ com.png);
+	background-repeat: no-repeat;
+	
+	background-size: cover;
+}
+.section-2{
+	margin-top: 40px;
+	height: 400px;
+	margin-left: 40px;
+}
+.section-2 h2{
+	font-size: 2rem;
+	padding-bottom: 40px;
+	margin-left: 40px;
+}
+.cards{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 40px;
+	margin-left: 40px;
+	
+}
+.card{
+	height: 400px;
+	width: 300px;
+	box-sizing: border-box;
+	
+}
